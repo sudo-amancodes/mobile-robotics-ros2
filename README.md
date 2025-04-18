@@ -58,7 +58,7 @@ This project implements three autonomous racing algorithms for the F1TENTH simul
 
 3. **Wall Following (wall_follow)**: An algorithm that maintains a constant distance from walls by using LiDAR readings to detect walls and adjust steering accordingly, allowing the vehicle to navigate tracks efficiently.
 
-Each algorithm is implemented as both a C++ class and a Python node, providing flexibility for development and testing. The code structure follows ROS 2 conventions with proper publisher/subscriber patterns for vehicle control.
+Each algorithm is implemented as a Python node, providing flexibility for development and testing. The code structure follows ROS 2 conventions with proper publisher/subscriber patterns for vehicle control.
 
 ## Acknowledgements
 
